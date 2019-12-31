@@ -1,0 +1,3 @@
+[submodule "cms"]
+	path = packages/cms
+	url = https://github.com/robinsondotnet/cms
