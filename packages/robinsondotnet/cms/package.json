@@ -1,38 +1,35 @@
 {
-  "name": "cms",
-  "version": "0.1.0",
+  "name": "@robinsondotnet/cms",
+  "version": "1.0.0",
+  "description": "Experimental headless cms built by my own",
+  "author": "Kento <robinsondotnet@hotmail.com>",
+  "homepage": "https://github.com/robinsondotnet/robinsondotnet.github.io#readme",
+  "license": "MIT",
+  "main": "src/main.js",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinsondotnet/robinsondotnet.github.io.git"
+  },
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/robinsondotnet/robinsondotnet.github.io/issues"
   },
   "dependencies": {
-    "core-js": "^3.4.4",
-    "vue": "^2.6.10",
-    "vue-class-component": "^7.0.2",
-    "vue-property-decorator": "^8.3.0",
-    "vue-router": "^3.1.3",
-    "vuex": "^3.1.2"
+    "vue": "^3.0.0-alpha.1"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.19",
-    "@vue/cli-plugin-babel": "^4.1.0",
-    "@vue/cli-plugin-eslint": "^4.1.0",
-    "@vue/cli-plugin-typescript": "^4.1.0",
-    "@vue/cli-plugin-unit-jest": "^4.1.0",
-    "@vue/cli-service": "^4.1.0",
-    "@vue/eslint-config-prettier": "^5.0.0",
-    "@vue/eslint-config-typescript": "^4.0.0",
-    "@vue/test-utils": "1.0.0-beta.29",
-    "eslint": "^5.16.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.12.0",
-    "prettier": "^1.19.1",
-    "sass-loader": "^8.0.0",
-    "typescript": "~3.5.3",
-    "vue-template-compiler": "^2.6.10"
+    "@vue/compiler-sfc": "^3.0.0-alpha.1",
+    "css-loader": "^3.4.0",
+    "file-loader": "^5.0.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "url-loader": "^3.0.0",
+    "vue-loader": "^16.0.0-alpha.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   }
 }

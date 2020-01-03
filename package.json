@@ -5,7 +5,11 @@
   "repository": "https://github.com/robinsondotnet/robinsondotnet.github.io.git",
   "author": "Kento <robinsondotnet@hotmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "lerna": "^3.20.1"
-  }
+  },
+  "private": true,
+  "workspaces": [
+    "packages/robinsondotnet/*"
+  ]
 }

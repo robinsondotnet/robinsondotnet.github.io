@@ -1,28 +1,24 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
-  </div>
+  <div>This is the header</div>
+  <Router />
+  <div> This is the footer</div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+import { ref } from 'vue'
+import Router from './Router.vue'
 
-export default Vue.extend({
-  components: {
-    HelloWorld
+export default {
+  setup() {
+    const foo = ref(0)
+    const fetchMethod = () => {
+      console.log('fetchMethod called')
+    }
+
+    return {
+      fetchMethod,
+      foo
+    }
   }
-})
-</script>
-
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
-</style>
+</script>

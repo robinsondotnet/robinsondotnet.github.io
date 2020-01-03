@@ -1,34 +1,11 @@
-# cms
+# `@robinsondotnet/cms`
 
-## Project setup
-```
-yarn install
-```
+> TODO: description
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Usage
 
-### Compiles and minifies for production
 ```
-yarn run build
-```
+const cms = require('@robinsondotnet/cms');
 
-### Run your tests
+// TODO: DEMONSTRATE API
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your unit tests
-```
-yarn run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,0 +1,19 @@
+{
+  "name": "@robinsondotnet/blog",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Kento <robinsondotnet@hotmail.com>",
+  "homepage": "https://github.com/robinsondotnet/robinsondotnet.github.io#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinsondotnet/robinsondotnet.github.io.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/robinsondotnet/robinsondotnet.github.io/issues"
+  }
+}
